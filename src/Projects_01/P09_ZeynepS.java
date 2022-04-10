@@ -1,5 +1,6 @@
 package Projects_01;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class P09_ZeynepS {
@@ -35,7 +36,9 @@ public class P09_ZeynepS {
         //  code Start here don't change before this line
         // kodu burdan başlatın ve bu satırdan önceki kodları değiştirmeyin
 
-		
+        Random r=new Random();
+        int a=r.nextInt(max);
+        System.out.println("random sayi; "+ a);
 
     }
 }
