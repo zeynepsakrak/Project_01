@@ -43,6 +43,7 @@ public class P01_OguzhanK {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Lutfen yasinizi giriniz");
 
         int myAge = scanner.nextInt();
 
@@ -51,6 +52,19 @@ public class P01_OguzhanK {
         //System.out.println("too young to drink alcohol");
 
         // kodu burdan baslatin ve bu satirdan onceki kodlari degistirmeyin
+
+        if (myAge <= 10) {
+            System.out.println("facebook hesabi acmak icin cok gencsin");
+        } else if (myAge <= 16) {
+            System.out.println("ehliyet almak icin cok gencsin");
+        } else if (myAge <= 18) {
+            System.out.println("too young to get a tattoo");
+        } else if (myAge < 21) {
+            System.out.println("alkol icmek icin cok gencsin");
+        } else {
+            System.out.println("istedigini yapabilirsin");
+        }
+
 
 
     }
