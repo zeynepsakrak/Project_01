@@ -62,6 +62,21 @@ public class P06_MehmetE {
         // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
         // String num1,num2,num3 kullanın
 
+        num1=num1.replaceAll("\\D","");
+        num2=num2.replaceAll("\\D","");
+        num3=num3.replaceAll("\\D","");
+
+
+        int num1s= Integer.valueOf(num1);
+        int num2s= Integer.valueOf(num2);
+        int num3s= Integer.valueOf(num3);
+
+        if (num1s+num2s+num3s<0){
+            System.out.println(-1);
+        }else{
+            System.out.println(num1s+num2s+num3s);
+        }
+
 
     }
 
