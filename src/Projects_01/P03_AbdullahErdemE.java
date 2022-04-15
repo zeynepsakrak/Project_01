@@ -1,5 +1,6 @@
 package Projects_01;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class P03_AbdullahErdemE {
@@ -47,6 +48,18 @@ public class P03_AbdullahErdemE {
          // code start here
          // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
 
-        }
+        char arr1 []= text.toCharArray();
 
+        Arrays.sort((arr1));
+
+        int count = 0;
+
+        for (int i = 0; i < arr1.length; i++) {
+            if (arr1[i]=='b'){
+                count++;
+            }
+        }
+        System.out.println("b: "+count);
+
+    }
 }
