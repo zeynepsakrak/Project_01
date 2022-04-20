@@ -35,10 +35,14 @@ public class P05_Sevil {
         String  strNum = dp.nextLine();
 
         int number = Integer.parseInt(strNum);
+        factoriyel();
 
          //      code start here  use int number
          //      kodu burdan başlatın ve int number kullanın
 
 
+    }
+
+    private static void factoriyel() {
     }
 }
