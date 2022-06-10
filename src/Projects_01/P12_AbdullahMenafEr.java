@@ -2,7 +2,7 @@ package Projects_01;
 
 import java.util.Scanner;
 
-public class P12_AbdullahMenafE {
+public class P12_AbdullahMenafEr {
 
     public static void main(String[] args) {
 
