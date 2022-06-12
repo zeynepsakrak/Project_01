@@ -44,6 +44,7 @@ public class P10_SeckinK {
        // kodu burdan başlatın ve bu satırdan önceki kodlari değiştirmeyin
          int randomInRange=min+(int)(Math.random()*((max-min)+1));
         System.out.println(randomInRange);
+        //deneme amaclı tekrar
 
 
 
